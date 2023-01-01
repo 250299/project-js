@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.background{
+    min-height: 100vh;
+    justify-content: center;
+    position: relative;
+   display: flex;
+    align-items: center;
+    background-image: url("images/3784896.jpg");
+    background-position: center;
+    background-size: cover;
+    
+   
+    
+}
+div .desparent{
+    border: 1px solid ;
+    width: 980px;
+    height: 500px;
+    border-radius: 4px;
+    background:#0000008a;
+    border: none;
+    text-align: center;
+    padding-top: 200px;
+    margin-top: 20px;
+   
+    
+}
+h1, h2{
+    color:white;
+    z-index: 2;
+}   
+.btn{
+    border: 2px;
+    background-color: blueviolet;
+    font-size: x-large;
+    
+}
+button span{
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: x-large;
+}
+div img{
+      width: 300px;
+      height: 150px;
+      margin: 10px;
+}
+.container{
+    display: flex;
+}
+a:visited{
+    color:black;
+}
+

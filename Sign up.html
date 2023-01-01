@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Page d'acceuil</title>
+</head>
+<body>
+  <div class="img">
+    <img src="images/19197641.jpg">
+  </div>
+  <!--sign up form-->
+  <div class="form">
+  <form id="form" method="post" action="">
+  <h1>Sign Up</h1>
+  <div class="centre">
+    <label for="usr" >Username:</label><br>
+    <input  type="text"  name="username" id="usr" placeholder="Username">
+    <br><span id="err"></span>
+  </div>
+  <div class="centre">
+    <label for="mail" >Email:</label><br>
+    <input type="email"  name="email" id="mail" placeholder="Email">
+    <br><span id="er"></span>
+    
+  </div>
+  <div class="centre">
+    <label for="pasw" >Password:</label><br>
+    <input type="password" name="wordpass" id="pasw" placeholder="Password">
+    <br><span id="r"></span>
+  </div>
+  <div class="centre">
+    <label for="cm" >Comfirm Password:</label><br>
+    <input type="password" name="comfirm" id="cm" placeholder="confirm password">
+    <br><span id="f"></span>
+  </div>
+  <input type="button" value="Sign Up" onclick="myfunction()" class="btn">
+</form>
+</div>
+<script src="main1.js"></script>
+</body>
+</html>
